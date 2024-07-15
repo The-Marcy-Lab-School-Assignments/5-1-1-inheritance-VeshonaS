@@ -24,7 +24,7 @@ class Square extends Rectangle{
     super(side1, side1 )
   }
   getDiagonal(){
-      const diagonal = this.side1 ** this.side1
+      const diagonal = this.side1 ** 2 + this.side1 ** 2
       return Math.sqrt(diagonal)
   }
 }
